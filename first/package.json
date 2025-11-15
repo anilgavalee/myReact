@@ -1,0 +1,27 @@
+{
+  "name": "my-react",
+  "version": "1.0.0",
+  "description": "this is my learning react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilgavalee/myReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Anil",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
