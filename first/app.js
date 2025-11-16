@@ -1,21 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-const heading = React.createElement(
-  "h1",
-  { id: "heading", className: "headline" },
-  "trial using react"
-);
-console.log(heading);
 
-const parent = React.createElement(
-  "div",
-  { id: "parent" },
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "headline", key:123 }, "i am heading h1 tag new way parcel"),
-    React.createElement("h2", { id: "headline", key:234 }, "i am heading h2 tag"),
-  ])
+const title = () => (<h3>this is the title h3</h3>);
+const jsxHeading = (<div><h1 id="headline">hello jsx react</h1>{title()} <Subtitle></Subtitle></div>);
+function Subtitle() {
+  return (
+    <h4>this is a h4 subtitle</h4>
+  )
+}
+console.log(jsxHeading);
+const root = ReactDOM.createRoot(document.querySelector("#root")).render(
+  jsxHeading
 );
-console.log(parent);
-
-const root = ReactDOM.createRoot(document.querySelector("#root"));
-root.render(parent);
