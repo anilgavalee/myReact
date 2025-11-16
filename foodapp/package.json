@@ -1,0 +1,27 @@
+{
+  "name": "foodapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilgavalee/myReact.git"
+  },
+  "author": "Anil G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilgavalee/myReact/issues"
+  },
+  "homepage": "https://github.com/anilgavalee/myReact#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}
